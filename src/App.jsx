@@ -1,10 +1,9 @@
-import { useState } from "react";
-import "./App.css";
-
 function App() {
-  const [count, setCount] = useState(0);
-
-  return <h1 class="text-3xl font-bold underline text-red-300">Hello world!</h1>;
+  return (
+    <header className="container mx-auto">
+      <h1 className="text-4xl font-bold">Play Memory Match!</h1>
+    </header>
+  )
 }
 
-export default App;
+export default App
