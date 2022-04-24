@@ -48,6 +48,7 @@ const Game = () => {
 
     setChoiceOne(null)
     setChoiceTwo(null)
+    setTurns(0)
     setCards(shuffledCards)
   }
 
@@ -64,7 +65,9 @@ const Game = () => {
 
   return (
     <>
-      <Button onClick={shuffleCards}>New Game</Button>
+      <div className="text-center my-4">
+        <Button onClick={shuffleCards}>New Game</Button>
+      </div>
       <div className="p-4 flex flex-wrap gap-4">
         {cards.map((card) => (
           <Card

@@ -5,7 +5,7 @@ import MemoryMatch from '../components/MemoryMatch/MemoryMatch'
 const Home = () => {
   return (
     <Layout>
-      <div className="bg-indigo-300 py-8">
+      <div className="bg-indigo-300 py-8 flex-1">
         <MemoryMatch />
       </div>
     </Layout>
