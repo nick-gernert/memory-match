@@ -1,10 +1,10 @@
 import React from 'react'
 
-const Score = ({ matches }) => {
+const Score = ({ turns }) => {
   return (
-    <div>
-      Score
-      {matches}
+    <div className="text-center text-5xl">
+      Score: &nbsp;
+      {turns}
     </div>
   )
 }
