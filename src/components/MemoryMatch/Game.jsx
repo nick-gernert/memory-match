@@ -17,6 +17,7 @@ const Game = () => {
   const [choiceOne, setChoiceOne] = useState(null)
   const [choiceTwo, setChoiceTwo] = useState(null)
   const [disabled, setDisabled] = useState(false)
+  const [gameOver, setGameOver] = useState(false)
 
   useEffect(() => {
     shuffleCards()
@@ -40,6 +41,10 @@ const Game = () => {
       }
     }
   }, [choiceOne, choiceTwo])
+
+  useEffect(() => {
+    setGameOver(cards.every((card) => card.matched))
+  }, [cards])
 
   const shuffleCards = () => {
     const shuffledCards = [...DEFAULT_CARDS, ...DEFAULT_CARDS]
@@ -65,6 +70,7 @@ const Game = () => {
 
   return (
     <>
+      {gameOver && <Celebrate />}
       <div className="text-center my-4">
         <Button onClick={shuffleCards}>New Game</Button>
       </div>
