@@ -33,6 +33,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         [null, {\
           "packageLocation": "./",\
           "packageDependencies": [\
+            ["@fontsource/indie-flower", "npm:4.5.5"],\
             ["@types/react", "npm:18.0.6"],\
             ["@types/react-dom", "npm:18.0.2"],\
             ["@vitejs/plugin-react", "npm:1.3.1"],\
@@ -454,6 +455,15 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@babel/types", "npm:7.17.0"],\
             ["@babel/helper-validator-identifier", "npm:7.16.7"],\
             ["to-fast-properties", "npm:2.0.0"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
+      ["@fontsource/indie-flower", [\
+        ["npm:4.5.5", {\
+          "packageLocation": "./.yarn/cache/@fontsource-indie-flower-npm-4.5.5-fb412f5a32-8a252480b4.zip/node_modules/@fontsource/indie-flower/",\
+          "packageDependencies": [\
+            ["@fontsource/indie-flower", "npm:4.5.5"]\
           ],\
           "linkType": "HARD"\
         }]\
@@ -1866,6 +1876,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./",\
           "packageDependencies": [\
             ["memory-match", "workspace:."],\
+            ["@fontsource/indie-flower", "npm:4.5.5"],\
             ["@types/react", "npm:18.0.6"],\
             ["@types/react-dom", "npm:18.0.2"],\
             ["@vitejs/plugin-react", "npm:1.3.1"],\
