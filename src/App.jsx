@@ -1,8 +1,19 @@
+import { Suspense, lazy } from 'react'
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
+
+const Home = lazy(() => import('./pages/Home'))
+const About = lazy(() => import('./pages/About'))
+
 function App() {
   return (
-    <header className="container mx-auto">
-      <h1 className="text-4xl font-bold">Play Memory Match!</h1>
-    </header>
+    <Router>
+      <Suspense fallback={<div>Loading...</div>}>
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/about" element={<About />} />
+        </Routes>
+      </Suspense>
+    </Router>
   )
 }
 
