@@ -10,7 +10,7 @@ const DEFAULT_CARDS = [
   { src: 'img/bog.png', author: 'Katelynn', whatItIs: 'Butterfly', matched: false },
   { src: 'img/creeper.png', author: 'Katelynn', whatItIs: 'Butterfly', matched: false },
   { src: 'img/dogfin.png', author: 'Katelynn', whatItIs: 'Butterfly', matched: false },
-  { src: 'img/mean-cat.png', author: 'Katelynn', whatItIs: 'Butterfly', matched: false },
+  // { src: 'img/mean-cat.png', author: 'Katelynn', whatItIs: 'Butterfly', matched: false },
   { src: 'img/minecraft-dog.png', author: 'Katelynn', whatItIs: 'Butterfly', matched: false },
   { src: 'img/minecraft-pokemon.png', author: 'Katelynn', whatItIs: 'Butterfly', matched: false },
   { src: 'img/minecraft.png', author: 'Katelynn', whatItIs: 'Butterfly', matched: false },
