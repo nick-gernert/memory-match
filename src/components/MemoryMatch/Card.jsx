@@ -27,7 +27,7 @@ const Card = ({ card, handleChoice, flipped, disabled }) => {
           <img
             className="back object-cover cursor-pointer min-h-0 h-48 w-40 hover:shadow-2xl hover:scale-105 border-4 rounded"
             onClick={handleClick}
-            src="img/back.jpeg"
+            src="img/ellie.jpg"
           />
         </div>
       </div>
