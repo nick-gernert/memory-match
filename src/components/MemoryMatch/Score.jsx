@@ -1,10 +1,10 @@
 import React from 'react'
 
-const Score = ({ turns }) => {
+const Score = ({ moves }) => {
   return (
     <div className="text-center text-5xl">
-      Score: &nbsp;
-      {turns}
+      Moves: &nbsp;
+      {moves}
     </div>
   )
 }
