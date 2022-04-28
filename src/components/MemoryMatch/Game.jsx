@@ -18,6 +18,7 @@ const DEFAULT_CARDS = [
   { src: 'img/rocket.png', author: 'Katelynn', whatItIs: 'Butterfly', matched: false },
   { src: 'img/unicorn-dragon-puppy.png', author: 'Katelynn', whatItIs: 'Butterfly', matched: false },
   { src: 'img/unidog.png', author: 'Katelynn', whatItIs: 'Butterfly', matched: false },
+  { src: 'img/amazing-flowers.png', author: 'Katelynn', whatItIs: 'Butterfly', matched: false },
 
   // { src: 'img/hairy.svg', author: 'Audrey', whatItIs: 'Hairy Guinea Pig', matched: false },
   // { src: 'img/max.svg', author: 'Audrey', whatItIs: 'Max Guinea Pig', matched: false },
